@@ -1,0 +1,111 @@
+#starRating .photo span {
+	position: relative;
+	display: inline-block;
+	width: 24px;
+	height: 22px;
+	overflow: hidden;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#starRating .photo span:last-child {
+    margin-right: 0px;
+}
+#starRating .photo span .nohigh {
+	position: absolute;
+	width: 24px;
+	height: 22px;
+	top: 0;
+	left: 0;
+	background: url("../img/star.png");
+}
+#starRating .photo span .high {
+	position: absolute;
+	width: 24px;
+	height: 22px;
+	top: 0;
+	left: 0;
+	background: url("../img/star1.png");
+}
+#starRating .starNum {
+    font-size: 26px;
+    color: #de4414;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+#starRating .bottoms {
+    height: 54px;
+    border-top: 1px solid #d8d8d8;
+}
+#starRating .photo {
+	margin-top: 10px;
+}
+#starRating .bottoms a {
+    margin-bottom: 0;
+}
+#starRating .bottoms .garyBtn {
+    margin-right: 57px!important;
+}
+#starRating .bottoms a {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.2s linear;
+    margin: 16px 0 22px;
+    text-align: center;
+    cursor: pointer;
+}
+.garyBtn {
+    margin-right: 60px!important;
+    background-color: #e1e1e1;
+    color: #999999;
+}
+.blueBtn {
+    background-color: #1968b1;
+    color: #fff;
+}
+.blueBtn:hover {
+    background: #0e73d0;
+}
+.main .flower_box {
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+.flower_box .flower01 {
+	position: absolute;
+	left: 138px;
+	top: 84px;
+}
+.flower_box .flower02 {
+	position: absolute;
+	left: 286px;
+	top: 7px;
+}
+.flower_box .flower03 {
+	position: absolute;
+	left: 218px;
+	top: 317px;
+}
+.flower_box .flower04 {
+	position: absolute;
+	left: 113px;
+	top: 203px;
+}
+.flower_box .flower05 {
+	position: absolute;
+	left: 406px;
+	top: 78px;
+}
+.flower_box .flower06 {
+	position: absolute;
+	left: 423px;
+	top: 202px;
+}
+.flower_box .flower07 {
+	position: absolute;
+	left: 350px;
+	top: 309px;
+}

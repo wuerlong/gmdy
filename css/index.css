@@ -1,0 +1,47 @@
+.tab-content {
+    width: 100%;
+}
+.tab-con ul {
+    padding: 0 1%;
+    overflow: hidden;
+}
+.tab-con ul li {
+    width: 33%!important;
+    border-bottom: 1px #D3D3D3 solid;
+    border-right: 1px #D3D3D3 solid;
+    float: left;
+    height: auto!important;
+    padding: 6px 0px!important;
+    background-color:rgba(0,0,0,0);
+}
+.tab-con ul li a {
+	display: block;
+	margin-left: 5%;
+	font: 400 1.2em/1.5em 'microsoft yahei';
+	color: #000;
+}
+.tab-con-href .img_width {
+	width: 100%;
+	position: relative;
+	border-radius: 50%;
+	text-align: center;
+
+}
+.tab-con-href h4 {
+    font: 400 0.5em/1.2em 'microsoft yahei';
+    color: #000;
+    margin-bottom: 0.3em;
+    line-height: 2.8em;
+    overflow: hidden;
+}
+.tab-con-href h4, .tab-con-href p {
+	width: 100%;
+}
+.tab-con-href h4{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 0.1em;
+	font-size: 0.9em;
+	text-align: center;
+}
